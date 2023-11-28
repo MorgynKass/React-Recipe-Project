@@ -1,0 +1,84 @@
+html {
+  margin: 0px;
+  padding: 0px;
+  font-size: 62.5%;
+  background: url(../public/b3452e33-photo-1576092762791-dd9e2220abd1.jpeg);
+}
+
+.App {
+  width: 100%;
+  height: 100vh;
+  font-family: "Raleway", sans-serif;
+}
+
+.search-form {
+  height: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.104)),
+    url(../public/plant-based-food-mc-220323-02-273c7b.webp) no-repeat;
+  background-size: cover;
+  box-shadow: 7px 7px 15px rgb(0, 0, 0);
+}
+
+.search-bar {
+  width: 50%;
+  padding: 0.7rem;
+  border: none;
+  font-size: 1.7rem;
+}
+
+.search-button {
+  padding: .7rem;
+  border: none;
+  background-color: rgb(65, 64, 64);
+  color: white;
+  font-size: 1.7rem;
+}
+
+.recipe {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.recipe-info {
+  flex: 1 1 0;
+  margin: 2rem;
+  padding: 2rem;
+  text-align: center;
+  background-color: rgb(181, 160, 132, .7);
+  border-radius: 10%;
+  box-shadow: 7px 7px 15px rgb(31, 31, 31);
+}
+
+.recipe-h1 {
+color: rgb(41, 33, 23);
+}
+
+.recipe-ul {
+  padding: 2rem;
+  text-align: left;
+  list-style-position: inside;
+  color: rgb(254, 254, 254);
+  background-color: rgb(128, 111, 88);
+  border-radius: 3%;
+}
+
+.recipe-ul li {
+font-size: 1.6rem;
+}
+
+.recipe-p {
+  font-size: 1.5rem;
+  color: rgb(41, 33, 23);
+}
+
+.recipe-img {
+  width: 25rem;
+  border-radius: 10%;
+  box-shadow: 7px 7px 7px rgb(65, 64, 64);
+}
